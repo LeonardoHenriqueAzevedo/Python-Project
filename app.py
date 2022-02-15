@@ -1,9 +1,5 @@
 import time
 score = 0
-
-# print("Seja bem Vindo Ao Quiz!")
-# time.sleep(2)
-# answer = str(input("Você quer jogar? "))
 answer_first = 0
 
 while answer_first != "S":
