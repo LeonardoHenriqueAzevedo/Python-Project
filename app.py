@@ -34,5 +34,12 @@ else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a próxima")
 
+print("Quais os países que têm a maior e a menor expectativa de vida do mundo?")
+print("a) Japão e Serra Leoa, b) Austrália e Afeganistão, c) Itália e Chade, d) Brasil e Congo, e) Estados Unidos e Angola")
 third_question = str(input("Resposta: "))
 third_question_corrected = third_question[0].upper()
+if third_question_corrected != "A":
+    print("Alternativa errada! Tente acertar a próxima.")
+else:
+    print("Alternativa correta, parabéns!")
+    print("Vamos para a próxima")
