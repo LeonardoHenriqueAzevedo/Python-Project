@@ -1,1 +1,1 @@
-print('Te
+print('T
