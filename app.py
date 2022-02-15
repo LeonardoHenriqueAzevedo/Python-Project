@@ -1,6 +1,5 @@
 score = 0
 
-
 print("Seja bem Vindo Ao Quiz!")
 
 answer = str(input("Você quer jogar?"))
@@ -34,3 +33,6 @@ if second_question_corrected != "B":
 else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a próxima")
+
+third_question = str(input("Resposta: "))
+third_question_corrected = third_question[0].upper()
