@@ -64,3 +64,4 @@ else:
     print("Alternativa correta, parabéns!")
 
 print("Fim Do Jogo!")
+print("Você acertou {} questões".format(score))
