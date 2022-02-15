@@ -63,5 +63,9 @@ else:
     score += 1
     print("Alternativa correta, parabéns!")
 
-print("Fim Do Jogo!")
+
+percentage = (score / 5) * 100
+print("")
+print("Você chegou ao final do jogo!")
 print("Você acertou {} questões".format(str(score)))
+print("Você teve uma porcentagem de acerto de {}%".format(str(percentage)))
