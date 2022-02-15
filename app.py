@@ -19,10 +19,10 @@ print("1 - Qual o menor e o maior país do mundo?")
 print("a) Vaticano e Rússia, b) Nauru e China, c) Mônaco e Canadá, d) Malta e Estados Unidos, e) São Marino e Índia")
 first_question = str(input("Resposta: "))
 if first_question[0].upper() != "A":
-    print("Alternativa errada! Tente acertar a segunda questão.")
+    print("\033[1;31mAlternativa errada! Tente acertar a segunda questão.\033[m")
 else:
     score += 1
-    print("Alternativa correta, parabéns!")
+    print("\033[1;32mAlternativa correta, parabéns!\033[m")
     print("Vamos para a segunda questão")
 
 time.sleep(3)
@@ -31,10 +31,10 @@ print("2 - Qual o livro mais vendido no mundo depois da Bíblia?")
 print("a) O Senhor dos Anéis, b) Dom Quixote, c) O Pequeno Príncipe, d) Ela, a Feiticeira, e) Um Conto de Duas Cidades")
 second_question = str(input("Resposta: "))
 if second_question[0].upper() != "B":
-    print("Alternativa errada! Tente acertar a terceira questão.")
+    print("\033[1;31mAlternativa errada! Tente acertar a terceira questão.\033[m")
 else:
     score += 1
-    print("Alternativa correta, parabéns!")
+    print("\033[1;32mAlternativa correta, parabéns!\033[m")
     print("Vamos para a terceira questão")
 
 time.sleep(3)
