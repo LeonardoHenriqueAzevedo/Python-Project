@@ -54,12 +54,11 @@ else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a última questão")
 
-print("Em que período da pré-história o fogo foi descoberto?")
-print("a) Neolítico, b) Paleolítico, c) Idade dos Metais, d) Período da Pedra Polida, e) Idade Média")
-fourth_question = str(input("Resposta: "))
-fourth_question_corrected = fourth_question[0].upper()
-if fourth_question_corrected != "B":
-    print("Alternativa errada! Tente acertar a próxima.")
+print("Quem pintou o teto da capela sistina?")
+print("a) Michelangelo, b) Leonardo da Vinci, c) Rafael, d) Sandro Botticelli, e) Donatello")
+fifth_question = str(input("Resposta: "))
+fifth_question_corrected = fifth_question[0].upper()
+if fifth_question_corrected != "A":
+    print("Alternativa errada!")
 else:
     print("Alternativa correta, parabéns!")
-    print("Vamos para a próxima")
