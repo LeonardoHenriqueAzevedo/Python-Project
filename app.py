@@ -21,6 +21,7 @@ first_question_corrected = first_question[0].upper()
 if first_question_corrected != "A":
     print("Alternativa errada! Tente acertar a segunda questão.")
 else:
+    score += 1
     print("Alternativa correta, parabéns!")
     print("Vamos para a segunda questão")
 
@@ -31,6 +32,7 @@ second_question_corrected = second_question[0].upper()
 if second_question_corrected != "B":
     print("Alternativa errada! Tente acertar a terceira questão.")
 else:
+    score += 1
     print("Alternativa correta, parabéns!")
     print("Vamos para a terceira questão")
 
@@ -41,6 +43,7 @@ third_question_corrected = third_question[0].upper()
 if third_question_corrected != "A":
     print("Alternativa errada! Tente acertar a quarta questão.")
 else:
+    score += 1
     print("Alternativa correta, parabéns!")
     print("Vamos para a quarta questão")
 
@@ -51,6 +54,7 @@ fourth_question_corrected = fourth_question[0].upper()
 if fourth_question_corrected != "B":
     print("Alternativa errada! Tente acertar a última.")
 else:
+    score += 1
     print("Alternativa correta, parabéns!")
     print("Vamos para a última questão")
 
@@ -61,6 +65,7 @@ fifth_question_corrected = fifth_question[0].upper()
 if fifth_question_corrected != "A":
     print("Alternativa errada!")
 else:
+    score += 1
     print("Alternativa correta, parabéns!")
 
 print("Fim Do Jogo!")
