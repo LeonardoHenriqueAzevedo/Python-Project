@@ -1,3 +1,4 @@
+import time
 score = 0
 
 print("Seja bem Vindo Ao Quiz!")
@@ -67,5 +68,7 @@ else:
 percentage = (score / 5) * 100
 print("")
 print("Você chegou ao final do jogo!")
+print("Calculando Resultados!")
+time.sleep(3)
 print("Você acertou {} questões".format(str(score)))
 print("Você teve uma porcentagem de acerto de {}%".format(str(percentage)))
