@@ -15,8 +15,8 @@ print("Você tem 1 tentativa para cada pergunta")
 
 time.sleep(3)
 print("")
-print("1 - Qual o menor e o maior país do mundo?")
-print("\033[1ma) Vaticano e Rússia, b) Nauru e China, c) Mônaco e Canadá, d) Malta e Estados Unidos, e) São Marino e Índia\033[m")
+print("\033[1m1 - Qual o menor e o maior país do mundo?\033[m")
+print("a) Vaticano e Rússia, b) Nauru e China, c) Mônaco e Canadá, d) Malta e Estados Unidos, e) São Marino e Índia")
 first_question = str(input("Resposta: "))
 if first_question[0].upper() != "A":
     print("\033[1;31mAlternativa errada! Tente acertar a segunda questão.\033[m")
@@ -27,8 +27,8 @@ else:
 
 time.sleep(3)
 print("")
-print("2 - Qual o livro mais vendido no mundo depois da Bíblia?")
-print("\033[1ma) O Senhor dos Anéis, b) Dom Quixote, c) O Pequeno Príncipe, d) Ela, a Feiticeira, e) Um Conto de Duas Cidades\033[m")
+print("\033[1m2 - Qual o livro mais vendido no mundo depois da Bíblia?\033[m")
+print("a) O Senhor dos Anéis, b) Dom Quixote, c) O Pequeno Príncipe, d) Ela, a Feiticeira, e) Um Conto de Duas Cidades")
 second_question = str(input("Resposta: "))
 if second_question[0].upper() != "B":
     print("\033[1;31mAlternativa errada! Tente acertar a terceira questão.\033[m")
@@ -39,8 +39,8 @@ else:
 
 time.sleep(3)
 print("")
-print("3 - Quais os países que têm a maior e a menor expectativa de vida do mundo?")
-print("\033[1ma) Japão e Serra Leoa, b) Austrália e Afeganistão, c) Itália e Chade, d) Brasil e Congo, e) Estados Unidos e Angola\033[m")
+print("\033[1m3 - Quais os países que têm a maior e a menor expectativa de vida do mundo?\033[m")
+print("a) Japão e Serra Leoa, b) Austrália e Afeganistão, c) Itália e Chade, d) Brasil e Congo, e) Estados Unidos e Angola")
 third_question = str(input("Resposta: "))
 if third_question[0].upper() != "A":
     print("\033[1;31mAlternativa errada! Tente acertar a quarta questão.\033[m")
