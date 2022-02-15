@@ -43,3 +43,13 @@ if third_question_corrected != "A":
 else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a próxima")
+
+print("Em que período da pré-história o fogo foi descoberto?")
+print("a) Neolítico, b) Paleolítico, c) Idade dos Metais, d) Período da Pedra Polida, e) Idade Média")
+fourth_question = str(input("Resposta: "))
+fourth_question_corrected = fourth_question[0].upper()
+if fourth_question_corrected != "B":
+    print("Alternativa errada! Tente acertar a próxima.")
+else:
+    print("Alternativa correta, parabéns!")
+    print("Vamos para a próxima")
