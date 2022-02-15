@@ -25,7 +25,7 @@ else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a próxima")
 
-print("Qual o livro mais vendido no mundo a seguir à Bíblia?")
+print("Qual o livro mais vendido no mundo depois da Bíblia?")
 print("a) O Senhor dos Anéis, b) Dom Quixote, c) O Pequeno Príncipe, d) Ela, a Feiticeira, e) Um Conto de Duas Cidades")
 second_question = str(input("Resposta: "))
 second_question_corrected = second_question[0].upper()
