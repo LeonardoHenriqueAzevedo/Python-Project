@@ -15,6 +15,8 @@ while answer_first != "S":
 print("Ok, vamos jogar então!")
 print("Você tem 1 tentativa para cada pergunta")
 
+time.sleep(2)
+print("")
 print("1 - Qual o menor e o maior país do mundo?")
 print("a) Vaticano e Rússia, b) Nauru e China, c) Mônaco e Canadá, d) Malta e Estados Unidos, e) São Marino e Índia")
 first_question = str(input("Resposta: "))
@@ -25,6 +27,8 @@ else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a segunda questão")
 
+time.sleep(2)
+print("")
 print("2 - Qual o livro mais vendido no mundo depois da Bíblia?")
 print("a) O Senhor dos Anéis, b) Dom Quixote, c) O Pequeno Príncipe, d) Ela, a Feiticeira, e) Um Conto de Duas Cidades")
 second_question = str(input("Resposta: "))
@@ -35,6 +39,8 @@ else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a terceira questão")
 
+time.sleep(2)
+print("")
 print("3 - Quais os países que têm a maior e a menor expectativa de vida do mundo?")
 print("a) Japão e Serra Leoa, b) Austrália e Afeganistão, c) Itália e Chade, d) Brasil e Congo, e) Estados Unidos e Angola")
 third_question = str(input("Resposta: "))
@@ -45,6 +51,8 @@ else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a quarta questão")
 
+time.sleep(2)
+print("")
 print("4 - Em que período da pré-história o fogo foi descoberto?")
 print("a) Neolítico, b) Paleolítico, c) Idade dos Metais, d) Período da Pedra Polida, e) Idade Média")
 fourth_question = str(input("Resposta: "))
@@ -55,6 +63,8 @@ else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a última questão")
 
+time.sleep(2)
+print("")
 print("5 - Quem pintou o teto da capela sistina?")
 print("a) Michelangelo, b) Leonardo da Vinci, c) Rafael, d) Sandro Botticelli, e) Donatello")
 fifth_question = str(input("Resposta: "))
