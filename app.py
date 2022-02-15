@@ -64,7 +64,7 @@ else:
 time.sleep(3)
 print("")
 print("5 - Quem pintou o teto da capela sistina?")
-print("a) Michelangelo, b) Leonardo da Vinci, c) Rafael, d) Sandro Botticelli, e) Donatello")
+print("\033[1ma) Michelangelo, b) Leonardo da Vinci, c) Rafael, d) Sandro Botticelli, e) Donatello\033[m")
 fifth_question = str(input("Resposta: "))
 if fifth_question[0].upper() != "A":
     print("\033[1;31mAlternativa errada!\033[m")
