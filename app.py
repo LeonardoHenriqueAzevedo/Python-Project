@@ -20,7 +20,7 @@ print("a) Vaticano e Rússia, b) Nauru e China, c) Mônaco e Canadá, d) Malta e
 first_question = str(input("Resposta: "))
 first_question_corrected = first_question[0].upper()
 if first_question_corrected != "A":
-    print("Alternativa Incorreta! Tente acertar a próxima!")
+    print("Alternativa errada! Tente acertar a próxima.")
 else:
     print("Alternativa correta, parabéns!")
     print("Vamos para a próxima")
@@ -29,4 +29,8 @@ print("Qual o livro mais vendido no mundo depois da Bíblia?")
 print("a) O Senhor dos Anéis, b) Dom Quixote, c) O Pequeno Príncipe, d) Ela, a Feiticeira, e) Um Conto de Duas Cidades")
 second_question = str(input("Resposta: "))
 second_question_corrected = second_question[0].upper()
-print(second_question_corrected)
+if second_question_corrected != "B":
+    print("Alternativa errada! Tente acertar a próxima.")
+else:
+    print("Alternativa correta, parabéns!")
+    print("Vamos para a próxima")
