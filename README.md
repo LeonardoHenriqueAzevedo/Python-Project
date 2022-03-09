@@ -1,5 +1,5 @@
 # ✔️ Project
-This is a project that contains 5 exercises made for my Computer Science Bachelor 
+This is a Quiz Game with 5 questions and a % that indicates how much you got right, this project was made to improve my knowledge about Python in a fun way. 
 
 ## Interface 
 ### Ex1
